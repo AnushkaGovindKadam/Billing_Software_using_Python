@@ -12,8 +12,6 @@ class Bill_App:
         self.root.geometry("1350x700+0+0")
         self.root.title("Billing Software")
         bg_color = "#887ff0"
-        #fcb1de
-#         bg_color = "#887ff0"
         title = Label(self.root, text="Billing Software", font=('times new roman', 30, 'bold'), pady=2, bd=12, bg="#fcb1de", fg="Black", relief=GROOVE)
         title.pack(fill=X)
     # ================variables=======================
