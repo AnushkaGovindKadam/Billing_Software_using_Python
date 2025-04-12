@@ -6,6 +6,7 @@ from tkinter import messagebox
 
 #===============main====================================================================
 
+
 class Bill_App:
     def __init__(self, root):
         self.root = root
@@ -337,7 +338,7 @@ class Bill_App:
         if self.mountain_duo.get() != 0:
             self.txtarea.insert(END, f"\n Mountain Duo\t\t{self.sanitizer.get()}\t\t{self.c_m_d}")
             self.txtarea.insert(END, f"\n--------------------------------")
-    # ===============taxes==============================
+    # ===============taxes======================================================
         if self.medical_tax.get() != '0.0':
             self.txtarea.insert(END, f"\n Medical Tax\t\t\t{self.medical_tax.get()}")
         if self.grocery_tax.get() != '0.0':
